@@ -17,7 +17,7 @@ def first_challenge
 
   contacts.each do |person, data|
       data.delete_if { |attribute, value| value == "strawberry"}
-      binging.pry
+      binding.pry
     end
 
   contacts
