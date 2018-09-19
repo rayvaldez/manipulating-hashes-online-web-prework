@@ -1,3 +1,5 @@
+require pry
+
 def first_challenge
   contacts = {
     "Jon Snow" => {
@@ -15,10 +17,8 @@ def first_challenge
 
   contacts.each do |person, data|
       data.delete_if { |attribute, value| value == "strawberry"}
+      binging.pry
     end
-  
 
-
-  #remember to return your newly altered contacts hash!
   contacts
 end
