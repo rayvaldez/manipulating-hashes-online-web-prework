@@ -11,6 +11,7 @@ def second_challenge
   }
 
   groceries_1 << groceries.values
+  groceries_1.flatten
 
 
 
