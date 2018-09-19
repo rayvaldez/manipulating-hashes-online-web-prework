@@ -1,7 +1,7 @@
 require 'pry'
 
 def second_challenge
-  groceries_1 = Array.new
+  groceries_1 = ()
 
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
