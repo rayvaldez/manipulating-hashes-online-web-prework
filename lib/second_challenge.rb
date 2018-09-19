@@ -1,6 +1,8 @@
 require 'pry'
 
 def second_challenge
+  groceries_1 = ()
+
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
    vegetable: ["carrots", "broccoli", "cucumbers"],
@@ -8,7 +10,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries.values
+  groceries_1 << groceries.values
 
 
 
