@@ -16,9 +16,9 @@ def first_challenge
   }
 
   contacts["Freddy Mercury"].each do |attribute, value|
-      value.delete_if { |attribute, value| value == "strawberry"}
+      ["Freddy Mercury"].delete_if { |attribute, value| value == "strawberry"}
     end
-  
+
 
   contacts
 
