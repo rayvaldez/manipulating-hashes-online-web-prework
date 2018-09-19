@@ -1,7 +1,6 @@
 require 'pry'
 
 def second_challenge
-  groceries_1 = ()
 
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -10,8 +9,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries_1 << groceries.values
-  groceries_1.flatten
+  groceries.flatten
 
 
 
